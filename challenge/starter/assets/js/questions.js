@@ -70,5 +70,23 @@ var questions = [
 
 ];
 
+var toStart = document.getElementById('start');
+toStart.addEventListener("click", function(pikachu){
+    pikachu.preventDefault();
+    console.log("button clicked! " + pikachu);
+    //Q1
+
+    var question1 = questions[0];
+    console.log(questions[0]);
+    question1.setAttribute('#id','question-title');
+
+    //return questions
+    function qs(){
+        for(var i = 0 ; i < questions.length; i++){
+questions. 
+        }
+    }
+})
+
 
 
